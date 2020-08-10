@@ -1,57 +1,45 @@
+title: dengchengH #博客标题
+description: Starting from 10 Aug. #博客描述
+keywords: golang, networking, learning #博客关键字
+author: "dengchengH"
 
-title: Catbook #Your awesome title
-email: #youremail@domain.com
-description: > # this means to ignore newlines until "baseurl"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+#title hide and show
+hide: (つェ⊂)我藏好啦
+show: ´∇｀ 呀被发现啦~ 
 
-baseurl: # the subpath of the site
-url: http://starry99.github.io/catbook # the base hostname & protocol for your site
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "hydrogen.atlinker.cn" # change this to the base hostname & protocol for your site
+buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
+           #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
 
-permalink: /:year-:month/:title
-timezone:
+PJAX: true #启用PJAX，会与评论系统冲突（如不用评论系统建议开启）
 
-favicon: /assets/img/favicon.ico
+paginate: 8 #同时显示的最大文章数，超过自动分页
+paginate_path: "page:num"
 
-google_analytics: #UA—XXXXXXXX-X
-disqus_shortname: #disqus shortname
+background: https://api.dujin.org/bing/1920.php
+theme_color: 546E7A
 
-user:
-  name: Catbook
-  pic: /assets/img/cat.jpg
-  picAlt: "catbook"
-  job: a category-centric theme
-  aboutme: true # comment this out if you don't need the 'about' page.
+# hydrogen-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+hydrogen-blog:
+  date_format: "%b %-d, %Y"
 
-exclude:
-  - README.md
-  - LICENSE
-  - github
+#MathJax switch
+MathJax: false
 
-defaults:
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comment: true   
+#install emoji
+plugins:
+  - jemoji
 
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown 
-kramdown:  
-  auto_ids: true
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  input: GFM
-  hard_wrap: false
-  footnote_nr: 1
-  show_warnings: false
-  enable_coderay: false
-
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
+# social account
+image:
+twitter:
+  username:
+#  site:
+facebook:
+  #publisher: null
+  #profile_id: null
+  app_id: null
+  #authors: null
+#  admins:
