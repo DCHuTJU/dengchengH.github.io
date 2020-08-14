@@ -10,18 +10,14 @@ permalink: /about.html
 
 你可以通过以下方式联系作者
 
-QQ: 1316341442
+QQ: 991594112
 
-Email: <a href="mailto:lk@atlinker.cn">lk@atlinker.cn</a>
+Email: 991594112@qq.com
 
-Github: [link9596](https://github.com/link9596)
+Wechat: hudengcheng
 
-## #捐助我
+## #其他
 
-本主题使用免费，也是作者长期工作的结晶，如果你喜欢主题\~想支持作者，欢迎给作者捐赠~
+想要刷题的胖友们可以看一下这个仓库，使用 Go 刷 Leetcode 的，以及一些简单的测试方法。
 
-<center>扫下方付款二维码即可向作者捐赠!</center>
-
-![wechat](https://atlinker.cn/pay/wechat.png)
-
-![pay](https://atlinker.cn/pay/apay.png)
+[点我带你去刷题](https://github.com/dengchengH/leetcode-withTest)
