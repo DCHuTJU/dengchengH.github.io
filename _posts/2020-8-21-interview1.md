@@ -1823,7 +1823,7 @@ www.tmall.com.danuoyi.tbcache.com. 30 IN A      111.164.16.233
 
 ### 17. Token Buckets
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200825090540242.png" alt="image-20200825090540242" style="zoom:67%;" />
+<img src="https://s1.ax1x.com/2020/08/28/doP5E6.png" alt="image-20200825090540242" style="zoom:67%;" />
 
 #### a.Token Buckets 原理
 
@@ -1996,7 +1996,7 @@ class TokenBucket {
 
 #### a.异步消息队列
 
-![image-20200826165624738](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200826165624738.png)
+<img src="https://s1.ax1x.com/2020/08/28/doiC8g.png" alt="image-20200826165624738" style="zoom:80%;" />
 
 使用`rpush/lpush`操作入队列，使用`rpop/lpop`操作出队列。
 
